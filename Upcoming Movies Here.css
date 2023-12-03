@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('your-background-image.jpg'); /* Replace with your image file */
+    background-size: cover;
+    background-position: center;
+    background-color: #1a1a1a; /* Background color applied */
+    color: #fff; /* Text color */
+    font-family: 'Arial', sans-serif; /* Replace with your preferred font */
+}
+
+.coming-soon-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0; /* Remove default margin for better centering */
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}

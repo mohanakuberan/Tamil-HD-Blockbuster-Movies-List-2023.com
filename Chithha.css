@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background-image {
+    position: relative;
+    height: 100vh;
+    background: url('background-image.jpg') center/cover no-repeat;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    margin-bottom: 20px;
+}
+
+download-section {
+    margin-top: 20px;
+    display: flex;
+}
+
+.download-button {
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.download-button:hover {
+    background-color: #b30000;
+}
+/* Add this CSS to your stylesheet (Chithha.css) or embed it directly in your HTML */
+
+/* Style for the "Next" link */
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #f50717;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+/* Add this to your CSS file */
+li a[href="latesttamil.html"] {
+    color: #070011; /* Adjust the color as needed */
+    /* Add any other styling you want */
+}
+li a[href="next.html"] {
+    color: #070011; /* Adjust the color as needed */
+    /* Add any other styling you want */
+}
+li a[href="Next2.html"] {
+    color: #070011; /* Adjust the color as needed */
+    /* Add any other styling you want */
+}
+li a[href="Next3.html"] {
+    color: #070011; /* Adjust the color as needed */
+    /* Add any other styling you want */
+}

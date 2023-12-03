@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.Chithha[[:space:]]HP240 filter=lfs diff=lfs merge=lfs -text
+*.Chithha[[:space:]]HP480 filter=lfs diff=lfs merge=lfs -text
+*.Chithha[[:space:]]HP720 filter=lfs diff=lfs merge=lfs -text
